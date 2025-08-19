@@ -1,0 +1,9 @@
+joblib
+numpy
+pillow
+plotly
+huggingface_hub
+xgboost
+catboost
+pytabkit
+
