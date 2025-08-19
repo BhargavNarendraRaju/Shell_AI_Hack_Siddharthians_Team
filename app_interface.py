@@ -98,16 +98,16 @@ if uploaded_csv:
     # Load models directly from Hugging Face Hub
     # ==============================
     model_files = [
-        "BlendProperty1_model.pkl",
-        "BlendProperty2_model.pkl",
-        "BlendProperty3_model.pkl",
-        "BlendProperty4_model.pkl",
-        "BlendProperty5_model.pkl",
-        "BlendProperty6_model.pkl",
-        "BlendProperty7_model.pkl",
-        "BlendProperty8_model.pkl",
-        "BlendProperty9_model.pkl",
-        "BlendProperty10_model.pkl"
+        "BlendProperty1/model.pkl",
+        "BlendProperty2/model.pkl",
+        "BlendProperty3/model.pkl",
+        "BlendProperty4/model.pkl",
+        "BlendProperty5/model.pkl",
+        "BlendProperty6/model.pkl",
+        "BlendProperty7/model.pkl",
+        "BlendProperty8/model.pkl",
+        "BlendProperty9/model.pkl",
+        "BlendProperty10/model.pkl"
         # add more if you uploaded them
     ]
 
@@ -290,6 +290,7 @@ if uploaded_csv:
 # ==============================
 st.markdown("---")
 st.markdown("© 2025 Shell.ai Hackathon – Sustainable Fuel Blend Prediction | Developed with ❤️ by Team Siddharthians")
+
 
 
 
