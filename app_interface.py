@@ -18,7 +18,7 @@ import plotly.figure_factory as ff
 # ==============================
 # CONFIG
 # ==============================
-REPO_ID = "Bhargavnarendraraju/3_Ensemble_TD_model"  # Hugging Face repo ID
+REPO_ID = "Bhargavnarendraraju/3_Ensemble_TD_Pickle_Files"  # Hugging Face repo ID
 st.set_page_config(page_title="Fuel Blend Prediction", layout="wide")
 
 # ==============================
@@ -98,16 +98,16 @@ if uploaded_csv:
     # Load models directly from Hugging Face Hub
     # ==============================
     model_files = [
-        "BlendProperty1/model.pkl",
-        "BlendProperty2/model.pkl",
-        "BlendProperty3/model.pkl",
-        "BlendProperty4/model.pkl",
-        "BlendProperty5/model.pkl",
-        "BlendProperty6/model.pkl",
-        "BlendProperty7/model.pkl",
-        "BlendProperty8/model.pkl",
-        "BlendProperty9/model.pkl",
-        "BlendProperty10/model.pkl"
+        "BlendProperty1.pkl",
+        "BlendProperty2.pkl",
+        "BlendProperty3.pkl",
+        "BlendProperty4.pkl",
+        "BlendProperty5.pkl",
+        "BlendProperty6.pkl",
+        "BlendProperty7.pkl",
+        "BlendProperty8.pkl",
+        "BlendProperty9.pkl",
+        "BlendProperty10.pkl"
         # add more if you uploaded them
     ]
 
@@ -290,6 +290,7 @@ if uploaded_csv:
 # ==============================
 st.markdown("---")
 st.markdown("© 2025 Shell.ai Hackathon – Sustainable Fuel Blend Prediction | Developed with ❤️ by Team Siddharthians")
+
 
 
 
